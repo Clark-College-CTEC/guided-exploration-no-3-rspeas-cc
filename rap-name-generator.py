@@ -50,6 +50,6 @@ for i in range(count):
     # the same value without the newline is written to the terminal
     print(f"{' '.join(name_parts)}")
 
-# COMMENT THIS CODE
 print(20*"-")
+# close the output file
 outputFile.close()
