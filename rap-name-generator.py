@@ -11,11 +11,11 @@ possible_names = []
 
 # creates fileref, outputFile, specifies location and Write Acccess
 outputFile = open(
-    'C:\\Users\\abada\\OneDrive - Clark College\\Courses\\_CTEC121\\Module_06\\github\\guided-exploration-no-3-rspeas-cc\\Crap-names-output.txt', 'w')
-
+    'Crap-names-output.txt', 'w')
+exit
 # create fileref, datafile, specifies location and Read Access
 #   with facilities opening and closing the file during FOR read
-with open('C:\\Users\\abada\\OneDrive - Clark College\\Courses\\_CTEC121\\Module_06\\github\\guided-exploration-no-3-rspeas-cc\\rap-names.txt', 'r') as dataFile:
+with open('rap-names.txt', 'r') as dataFile:
     # FOR reads each line of the input file as text into NAME
     for name in dataFile:
         # and rstrip removes trailing blanks and EOL character - variable length
